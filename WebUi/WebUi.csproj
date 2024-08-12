@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.1-pre01" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="NetcodeHub.Packages.Components.DataGrid" Version="1.0.1" />
+    <PackageReference Include="NetcodeHub.Packages.Components.Modal" Version="1.0.0" />
+    <PackageReference Include="NetcodeHub.Packages.Components.Toast" Version="1.0.4" />
+    <PackageReference Include="NetcodeHub.Packages.Components.Validations" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
